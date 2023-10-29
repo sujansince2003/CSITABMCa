@@ -55,6 +55,10 @@
 
 }
 
+.view:hover{
+  color: navy;
+}
+
 .view-bottom{
   border-bottom: 2px navy solid;
   width: 10%;
