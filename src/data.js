@@ -76,41 +76,49 @@ export const products = [
     id: 1,
     title: "Mock Test 2079",
     img: mocktest,
+    desc: "Seeing the CSIT Association of BMC growing beautifully with the mission and vision of helping IT enthusiasts to find a way out of their IT career, widening the reach beyond the college and giving back to the community; gives me immense pleasure.Hats off to you guys for  your tireless efforts on shaping it in a way so that upcoming students don't have to face the same barriers as we did in the past. ",
   },
   {
     id: 2,
     title: "Frontend Workshop",
     img: frontendworkshop,
+    desc: "Seeing the CSIT Association of BMC growing beautifully with the mission and vision of helping IT enthusiasts to find a way out of their IT career, widening the reach beyond the college and giving back to the community; gives me immense pleasure.Hats off to you guys for  your tireless efforts on shaping it in a way so that upcoming students don't have to face the same barriers as we did in the past. ",
   },
   {
     id: 3,
     title: "Futsal Tournament",
     img: futsal,
+    desc: "Seeing the CSIT Association of BMC growing beautifully with the mission and vision of helping IT enthusiasts to find a way out of their IT career, widening the reach beyond the college and giving back to the community; gives me immense pleasure.Hats off to you guys for  your tireless efforts on shaping it in a way so that upcoming students don't have to face the same barriers as we did in the past. ",
   },
   {
     id: 4,
     title: "Graphic Designing Workshop",
     img: graphicdesigning,
+    desc: "Seeing the CSIT Association of BMC growing beautifully with the mission and vision of helping IT enthusiasts to find a way out of their IT career, widening the reach beyond the college and giving back to the community; gives me immense pleasure.Hats off to you guys for  your tireless efforts on shaping it in a way so that upcoming students don't have to face the same barriers as we did in the past. ",
   },
   {
     id: 5,
     title: "IT Roadmap Event",
     img: itroadmap,
+    desc: "Seeing the CSIT Association of BMC growing beautifully with the mission and vision of helping IT enthusiasts to find a way out of their IT career, widening the reach beyond the college and giving back to the community; gives me immense pleasure.Hats off to you guys for  your tireless efforts on shaping it in a way so that upcoming students don't have to face the same barriers as we did in the past. ",
   },
   {
     id: 6,
     title: ".NET Workshop",
     img: workshopNET,
+    desc: "Seeing the CSIT Association of BMC growing beautifully with the mission and vision of helping IT enthusiasts to find a way out of their IT career, widening the reach beyond the college and giving back to the community; gives me immense pleasure.Hats off to you guys for  your tireless efforts on shaping it in a way so that upcoming students don't have to face the same barriers as we did in the past. ",
   },
   {
     id: 7,
     title: "React Workshop",
     img: reactEvent,
+    desc: "Seeing the CSIT Association of BMC growing beautifully with the mission and vision of helping IT enthusiasts to find a way out of their IT career, widening the reach beyond the college and giving back to the community; gives me immense pleasure.Hats off to you guys for  your tireless efforts on shaping it in a way so that upcoming students don't have to face the same barriers as we did in the past. ",
   },
   {
     id: 8,
     title: "Machine Learning Workshop",
     img: mlevent,
+    desc: "Seeing the CSIT Association of BMC growing beautifully with the mission and vision of helping IT enthusiasts to find a way out of their IT career, widening the reach beyond the college and giving back to the community; gives me immense pleasure.Hats off to you guys for  your tireless efforts on shaping it in a way so that upcoming students don't have to face the same barriers as we did in the past. ",
   },
 ];
 
