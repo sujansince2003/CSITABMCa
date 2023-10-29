@@ -23,9 +23,9 @@ const App = () => {
   });
   return (
     <div>
-      {/* {loader ? (
+      {loader ? (
         <Loader />
-      ) : ( */}
+      ) : (
         <>
           <Navigation />
           <Header />
@@ -36,7 +36,7 @@ const App = () => {
           <EventLandingPage/>
           <Footer />
         </>
-      {/* )} */}
+      )}
     </div>
   );
 };
