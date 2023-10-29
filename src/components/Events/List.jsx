@@ -14,8 +14,12 @@ const List = () => {
             key={item.id}
             img={item.img}
             link={item.link}
+            desc={item.desc.slice(0,150)}
           />
         ))}
+      </div>
+      <div className="">
+
       </div>
     </div>
   );

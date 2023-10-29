@@ -126,6 +126,10 @@
    gap: 10px;
 }
 
+.attendeesnamehover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 
 .mentorname{
@@ -253,7 +257,6 @@
 .review-box{
     height: fit-content;
     background-color: #FFFFFF;
-  
     margin: 40px 0;
     border-top-left-radius: 50px;
     border-top-right-radius: 30px;
