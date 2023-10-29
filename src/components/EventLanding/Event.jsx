@@ -20,7 +20,7 @@ const Event = ({ img, title, link, id }) => {
     
     <div className='upper-div'> 
 
-    <div className=''>
+    <div className='imgdiv'>
    <img src={img1} className='img'/>
    </div>
     
@@ -123,16 +123,50 @@ const Event = ({ img, title, link, id }) => {
 
      <div className='review-section'>
          
-         <div className='review-box'>
-          abc
+     <div className='review-box'>
+
+       <div className='review-items'>
+       <img src={mentorimg}  className='review-photo'/> 
+
+        <div>
+        <span className='review-name'>Sanchit Pandey</span>
+        <p className='review-designation'>Student</p>
          </div>
+        </div>
+
+        <p className='review-description'>This is a mistake. Here, we’ll refer to some time-honored typesetting conventions, with an emphasis on readability, and offer guidance on adapting them effectively for devices and screens. We’ll see that the ability to embed fonts with @font-face is not by itself a solution to all of our typographic challenges.</p>
+
+      </div>
 
          <div className='review-box'>
-           abc
+
+             <div className='review-items'>
+            
+            <img src={mentorimg}  className='review-photo'/> 
+
+              <div>
+            <span className='review-name'>Sanchit Pandey</span>
+           <p className='review-designation'>Student</p>
+          </div>
+         </div>
+
+         <p className='review-description'>This is a mistake. Here, we’ll refer to some time-honored typesetting conventions, with an emphasis on readability, and offer guidance on adapting them effectively for devices and screens. We’ll see that the ability to embed fonts with @font-face is not by itself a solution to all of our typographic challenges.</p>
+
         </div>
 
         <div className='review-box'>
-          abc
+
+        <div className='review-items'>
+        <img src={mentorimg}  className='review-photo'/> 
+      
+        <div>
+         <span className='review-name'>Sanchit Pandey</span>
+         <p className='review-designation'>Student</p>
+         </div>
+         </div>
+
+         <p className='review-description'>This is a mistake. Here, we’ll refer to some time-honored typesetting conventions, with an emphasis on readability, and offer guidance on adapting them effectively for devices and screens. We’ll see that the ability to embed fonts with @font-face is not by itself a solution to all of our typographic challenges.</p>
+
        </div>
 
          </div>
