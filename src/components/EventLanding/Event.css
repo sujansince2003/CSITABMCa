@@ -232,7 +232,8 @@
 }
 
 .lower-div{
- background-color: #FFFFFF;
+ 
+ background-color: #E7E7E7;
  height: fit-content;
 
 }
@@ -241,18 +242,54 @@
     padding: 40px;
 }
 
+.review-items{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 10px 0;
+  
+}
+
 .review-box{
-    height: 90px;
-    background-color: #E7E7E7;
+    height: fit-content;
+    background-color: #FFFFFF;
+  
     margin: 40px 0;
     border-top-left-radius: 50px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 5px;
-    text-align: center;
+    padding: 20px;
 }
 
-@media  screen and (max-width:900px ) {
+.review-name{
+    color: #262967;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.review-photo{
+    width: fit-content;
+    height: 40px;
+    text-align: left;
+    border-radius: 100%;
+}
+
+.review-designation{
+    font-weight: 500;
+    color: #a6a6a6;
+
+}
+
+
+.review-description{
+    height: fit-content;
+    font-weight: 500;
+}
+
+
+
+@media  screen and (max-width:1000px ) {
 
 
     .bg-div{
@@ -303,6 +340,54 @@
     .button{
         display: flex;
         justify-content: center;
+    }
+
+}
+
+
+@media screen and (min-width:1000px) and (max-width: 1135px ){
+    
+    .event-details{
+        margin: 3px 0;
+    }
+
+    .event-summary-text{
+            font-size: 0.7rem;
+       
+    }
+
+    .button{
+        padding: 1px 18px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .tags{
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+         padding: 5px;
+        gap: 12px;
+    }
+
+    .mentorname{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        text-align: center;
+
+    }
+
+    .attendees{
+        text-align: center;
+    }
+    
+    .attendeesname{
+        text-align: center;
     }
 
 }
